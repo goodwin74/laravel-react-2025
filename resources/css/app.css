@@ -1,0 +1,24 @@
+:root{
+    --tr-val: 200%;
+    --tr-val2: 0%;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+::-webkit-scrollbar { width: 0; }
+body { -ms-overflow-style: none; }
+body { overflow: -moz-scrollbars-none; }
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#app, .main{
+    width: 100%;
+    height: 100%;
+}
